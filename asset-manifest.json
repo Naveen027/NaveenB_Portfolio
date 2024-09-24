@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/NaveenB_Portfolio/static/css/main.27ca08c7.css",
+    "main.js": "/NaveenB_Portfolio/static/js/main.e96a34bb.js",
+    "static/js/453.24f41770.chunk.js": "/NaveenB_Portfolio/static/js/453.24f41770.chunk.js",
+    "index.html": "/NaveenB_Portfolio/index.html",
+    "main.27ca08c7.css.map": "/NaveenB_Portfolio/static/css/main.27ca08c7.css.map",
+    "main.e96a34bb.js.map": "/NaveenB_Portfolio/static/js/main.e96a34bb.js.map",
+    "453.24f41770.chunk.js.map": "/NaveenB_Portfolio/static/js/453.24f41770.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27ca08c7.css",
+    "static/js/main.e96a34bb.js"
+  ]
+}
