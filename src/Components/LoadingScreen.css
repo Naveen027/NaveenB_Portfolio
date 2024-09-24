@@ -1,0 +1,36 @@
+.loading-screen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    background-color: black; /* Black background */
+    color: #000; /* Start with dark text */
+    font-size: 3rem;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .loading-screen h1 {
+    animation: fadeInOut 4s ease-in-out forwards; /* Text fades and brightens over 4 seconds */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  @keyframes fadeInOut {
+    0% {
+      color: #000; /* Dark at the start */
+      opacity: 1;
+    }
+    50% {
+      color: #fff; /* Fully white halfway */
+      opacity: 1;
+    }
+    100% {
+      color: #fff; /* Stay white */
+      opacity: 0; /* Fade out */
+    }
+  }
+  
+  .fade-out {
+    opacity: 0;
+  }
+  

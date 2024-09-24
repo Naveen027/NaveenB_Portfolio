@@ -1,0 +1,43 @@
+.container{
+  min-height: 76vh;
+}
+.skill-box {
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  transition: transform 0.3s;
+  height: 200px; /* Set a fixed height for uniformity */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-box:hover {
+  transform: scale(1.05);
+}
+
+.skill-image {
+  width: 80px; /* Set a fixed width */
+  height: 80px; /* Set a fixed height for uniformity */
+  object-fit: cover; /* Ensure the image fits within the given dimensions */
+}
+
+.skill-box h5 {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.skills h4{
+  text-align: center;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .skill-box h5 {
+    margin-top: 10px;
+    color: steelblue;
+  }
+  .container{
+    padding-top: 35px;
+  }
+}

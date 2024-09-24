@@ -1,0 +1,91 @@
+.container{
+    height: 76vh;
+}
+.title {
+    text-align: center;
+    color: rgb(70, 156, 231);
+    margin: 20px 0px 25px 0px; /* Adjust as needed */
+    border-bottom: 5px solid rgb(70, 156, 231);
+    width: 150px;
+    margin: 0px auto 25px auto;
+}
+
+.edu {
+    text-align: left; /* Center the entire .edu section */
+    padding-top: 5px; /* Add top padding for spacing */
+}
+
+.edu ul {
+    display: flex;
+   
+    color: white;
+    list-style: none;
+    padding-left: 0; /* Remove left padding */
+}
+
+.edu li {
+    margin: 10px; /* Spacing between logos */
+    text-align: left;
+}
+
+.edu ul li h4 {
+    font-size: 14px;
+    text-align: left; /* Center text under logos */
+}
+
+.edu img {
+    height: 35px;
+    width: 35px;
+}
+
+.roles {
+    color: white;
+    text-align: left; /* Center align text */
+}
+
+.roles h6 {
+    line-height: 1.8;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 600px) {
+    .container{
+        height: 67rem;
+    }
+    .title {
+        width: 100%; /* Full width on mobile */
+        border-bottom: 3px solid rgb(70, 156, 231); /* Thinner border */
+        margin: 30px auto 0px auto; /* Increased top margin */
+    }
+
+    .edu {
+        text-align: center; /* Ensure .edu is centered */
+        padding-top: 0px; /* Additional padding for spacing */
+    }
+    .edu img{
+        margin-left: 0vh;
+    }
+    .edu ul {
+        flex-direction: column; /* Stack items vertically */
+        padding-left: 0; /* Remove left padding */
+    }
+
+    .edu li {
+        margin: 5px 0; /* Adjust margin for smaller screens */
+        text-align: center;
+    }
+
+    .edu ul li h4 {
+        font-size: 12px; /* Smaller font size */
+        text-align: center; /* Center text under logos */
+    }
+
+    .roles {
+        margin-left: 0px; /* Remove left margin */
+        text-align: center; /* Center align text */
+    }
+
+    .roles h6 {
+        line-height: 1; /* Adjust line height */
+    }
+}
