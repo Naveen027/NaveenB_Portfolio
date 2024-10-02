@@ -32,11 +32,11 @@ function App() {
           <Navbar />
           <Routes>
             {/* Only render the Home component after 3 seconds */}
-            {showHome && <Route path="/NaveenB_Portfolio/home" element={<Home />} />}
-            <Route path="/NaveenB_Portfolio/about" element={<About />} />
-            <Route path="/NaveenB_Portfolio/services" element={<Services />} />
-            <Route path="/NaveenB_Portfolio/projects" element={<Projects />} />
-            <Route path="/NaveenB_Portfolio/contact" element={<Contacts />} />
+            {showHome && <Route path="/" element={<Home />} />}
+            <Route path="/about" element={<About />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/contact" element={<Contacts />} />
           </Routes>
           <Footer />
         </>
