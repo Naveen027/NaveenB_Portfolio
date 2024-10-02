@@ -13,6 +13,7 @@
   .loading-screen h1 {
     animation: fadeInOut 4s ease-in-out forwards; /* Text fades and brightens over 4 seconds */
     font-family: 'Arial', sans-serif;
+    text-align: center;
   }
   
   @keyframes fadeInOut {
@@ -21,7 +22,7 @@
       opacity: 1;
     }
     50% {
-      color: #fff; /* Fully white halfway */
+      color: #ffffff; /* Fully white halfway */
       opacity: 1;
     }
     100% {

@@ -178,7 +178,7 @@
   
   @media only screen and (max-width: 600px) {
     #contactid {
-      height: 100vh;
+      height: 110vh;
       margin-top: 15px;
     }
     #contactid  .row{

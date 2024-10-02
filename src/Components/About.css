@@ -30,6 +30,7 @@
 .skills h4{
   text-align: center;
   color: white;
+  margin-bottom: 30px;
 }
 
 @media (max-width: 768px) {
@@ -39,5 +40,8 @@
   }
   .container{
     padding-top: 35px;
+  }
+  #about{
+    height: 100vh;
   }
 }

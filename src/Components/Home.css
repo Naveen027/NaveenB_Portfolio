@@ -150,13 +150,13 @@
     }
 
     .col-lg-6 .text h4, h5 {
-        font-size: 17px; /* Further reduce font size */
+        font-size: 19px; /* Further reduce font size */
     }
      .col-lg-6 .text p{
         font-size: 20px;
      }
     .imagination, .frontend {
-        width: 35ch; /* Adjust width for very small screens */
+        width: 30ch; /* Adjust width for very small screens */
         animation: typing 2.5s steps(22), blink .8s step-end infinite alternate;
     }
     .btn{
